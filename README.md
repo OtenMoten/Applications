@@ -1,2 +1,2 @@
 # Applications
-In this library you can find several programs.
+Every quest I'm trying to solve that is related to university, private or commercial I will share here.
