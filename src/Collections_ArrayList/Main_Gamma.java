@@ -6,14 +6,14 @@
  */
 package Collections_ArrayList;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
 /**
  * @author Kevin Ossenbrück
  * @date August 2018
  * @github https://github.com/OtenMoten
  */
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Main_Gamma {
 
     public static void main(String[] args) {

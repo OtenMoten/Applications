@@ -1,17 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * This is a example application how to implement the different types
+ * of collections.
+ *
+ * Enjoy the course and feel free to contribute.
  */
 package Collections_ArrayList;
 
+/**
+ * @author Kevin Ossenbrück
+ * @date August 2018
+ * @github https://github.com/OtenMoten
+ */
 import java.util.Iterator;
 import java.util.Vector;
 
-/**
- *
- * @author Kevin
- */
 public class Main_Vector {
 
     public static void main(String[] args) {

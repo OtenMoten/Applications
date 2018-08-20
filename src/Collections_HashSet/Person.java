@@ -4,7 +4,7 @@
  *
  * Enjoy the course and feel free to contribute.
  */
-package Collections_ArrayList;
+package Collections_HashSet;
 
 /**
  * @author Kevin Ossenbrück
