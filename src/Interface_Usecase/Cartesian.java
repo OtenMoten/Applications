@@ -1,10 +1,10 @@
 /**
- * This application compares several Student-objects each other
- * by different attributes and will give a sorted output.
+ * Here you can learn how to implement a interface and deal with classes
+ * and objects that have this interface implemented.
  *
  * Enjoy the course and feel free to contribute.
  */
-package Complex_Numbers;
+package Interface_Usecase;
 
 /**
  * @author Kevin Ossenbrück

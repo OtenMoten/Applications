@@ -1,13 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Here you can learn how to implement a interface and deal with classes
+ * and objects that have this interface implemented.
+ *
+ * Enjoy the course and feel free to contribute.
  */
-package Complex_Numbers;
+package Interface_Usecase;
 
 /**
- *
- * @author Kevin
+ * @author Kevin Ossenbrück
+ * @date August 2018
+ * @github https://github.com/OtenMoten
  */
 public class Main {
 
