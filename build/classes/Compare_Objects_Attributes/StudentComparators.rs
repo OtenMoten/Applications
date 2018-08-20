@@ -1,0 +1,5 @@
+Compare_Objects_Attributes.StudentComparatorDate
+Compare_Objects_Attributes.StudentComparatorMnr
+Compare_Objects_Attributes.StudentComparatorGebDat
+Compare_Objects_Attributes.StudentComparatorName
+Compare_Objects_Attributes.StudentComparatorID
