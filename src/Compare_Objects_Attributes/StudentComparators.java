@@ -13,26 +13,26 @@ package Compare_Objects_Attributes;
  */
 import java.util.Comparator;
 
-class StudentComparatorMnr implements Comparator<Student> {
+class StudentComparatorID implements Comparator<Student> {
 
     @Override
-    public int compare(Student o1, Student o2) {
-        return o1.getID().compareTo(o2.getID());
+    public int compare(Student objAlpha, Student objBeta) {
+        return objAlpha.getID().compareTo(objBeta.getID());
     }
 }
 
 class StudentComparatorName implements Comparator<Student> {
 
     @Override
-    public int compare(Student o1, Student o2) {
-        return o1.getName().compareTo(o2.getName());
+    public int compare(Student objAlpha, Student objBeta) {
+        return objAlpha.getName().compareTo(objBeta.getName());
     }
 }
 
-class StudentComparatorGebDat implements Comparator<Student> {
+class StudentComparatorDate implements Comparator<Student> {
 
     @Override
-    public int compare(Student o1, Student o2) {
-        return o1.getDate().compareTo(o2.getDate());
+    public int compare(Student objAlpha, Student objBeta) {
+        return objAlpha.getDate().compareTo(objBeta.getDate());
     }
 }

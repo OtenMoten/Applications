@@ -15,7 +15,7 @@ public class MainGui {
 
     public static void main(String[] args) {
 
-        new GuiStud().setVisible(true);
+        new GUIStudent().setVisible(true);
 
     }
 

@@ -28,8 +28,8 @@ public class Student {
         this.myDate = new GregorianCalendar();
 
         try {
-            SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
-            myDate.setTime(sdf.parse(newDate));
+            SimpleDateFormat mySimpleDateFormat = new SimpleDateFormat("dd.MM.yyyy");
+            myDate.setTime(mySimpleDateFormat.parse(newDate));
         } catch (ParseException parseExceptionObject) {
             System.out.println(parseExceptionObject.getMessage());
         }

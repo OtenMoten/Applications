@@ -17,6 +17,7 @@ import java.util.TreeSet;
 public class Main {
 
     public static void main(String[] args) {
+
         Student s100 = new Student(100, "Kurt", "12.12.1990");
         Student s101 = new Student(101, "Karl", "23.04.1991");
         Student s102 = new Student(102, "Karla", "14.02.1992");
@@ -31,12 +32,36 @@ public class Main {
         liste.add(s104);
         liste.add(s101);
 
-        TreeSet<Student> set
+        //  Sort by name.
+        TreeSet<Student> myTreeSet
                 = new TreeSet<>(new StudentComparatorName());
-        set.addAll(liste);
-        for (Student stud : set) {
-            System.out.println(stud);
-        }
+        myTreeSet.addAll(liste);
+        System.out.println("Sort students by name:");
+        myTreeSet.forEach((myStudent) -> {
+            System.out.println(myStudent);
+        });
+        System.out.println();
+
+        //  Sort by ID.
+        myTreeSet
+                = new TreeSet<>(new StudentComparatorID());
+        myTreeSet.addAll(liste);
+        System.out.println("Sort students by ID:");
+        myTreeSet.forEach((myStudent) -> {
+            System.out.println(myStudent);
+        });
+        System.out.println();
+
+        //  Sort by date.
+        myTreeSet
+                = new TreeSet<>(new StudentComparatorDate());
+        myTreeSet.addAll(liste);
+        System.out.println("Sort students by date:");
+        myTreeSet.forEach((myStudent) -> {
+            System.out.println(myStudent);
+        });
+        System.out.println();
+
     }
 
 }

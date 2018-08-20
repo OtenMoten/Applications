@@ -19,13 +19,13 @@ import java.util.TreeSet;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class GuiStud extends JFrame implements ActionListener {
+public class GUIStudent extends JFrame implements ActionListener {
 
     private final JButton btnID = new JButton("Student ID");
     private final JButton btnName = new JButton("Student name");
     private final JButton btnDate = new JButton("Student birthday");
 
-    public GuiStud() {
+    public GUIStudent() {
 
         super.setTitle("GUI for Students");
         super.setLocation(800, 600);
@@ -52,7 +52,7 @@ public class GuiStud extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent actionEventObject) {
 
         if (actionEventObject.getSource() == this.btnID) {
-            Comparator<?> myComparator = new StudentComparatorMnr();
+            Comparator<?> myComparator = new StudentComparatorID();
             print(myComparator);
         }
         if (actionEventObject.getSource() == this.btnName) {
@@ -61,7 +61,7 @@ public class GuiStud extends JFrame implements ActionListener {
 
         }
         if (actionEventObject.getSource() == this.btnDate) {
-            Comparator<?> myComparator = new StudentComparatorGebDat();
+            Comparator<?> myComparator = new StudentComparatorDate();
             print(myComparator);
         }
 
